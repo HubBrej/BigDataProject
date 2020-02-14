@@ -14,5 +14,5 @@
 
 
 
-- *DataAnalysis.ipynb* : **Partie permettant tester les modèles, puis d'exporter le meilleur (best_model.hy)**
+- *DataAnalysis.ipynb* : **Partie permettant tester les modèles, puis d'exporter le meilleur (best_model.h5)**
 - *DataAnalysis.md* : **Partie permettant de visualiser le fichier précedent**
