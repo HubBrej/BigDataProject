@@ -1,15 +1,15 @@
 # BigDataProject
 
 ## Listes des fichiers
-- *encriptionFile* : fonction de chiffrement et déchiffrement via KMS d'AWS
-- *predict.py* : fonction permettant d'appliquer le modèlegal
+- *encriptionFile* : **fonction de chiffrement et déchiffrement via KMS d'AWS**
+- *predict.py* : **fonction permettant d'appliquer le modèlegal**
 
 
-- *receive_file.py* :
-- *send_file.py* : **partie permettant d'envoyer les fichiers sur le bucket et de d'envoyer un message à la SQS**
-- *server.py* : **partie s'executant sur le server EC2, utilise encryption et predict pour réaliser la prédiction de manière automatique**
-- *json2mongoDB.py* : **partie s'executant sur la vm permettan de stoquer les resultats obtenus sur la DB mongo, utilise encryption et predict pour réaliser la prédiction de manière automatique**
+- *send_file.py* : **Partie permettant d'envoyer les fichiers sur le bucket et de d'envoyer un message à la SQS**
+- *server.py* : **Partie s'executant sur le server EC2, utilise encryption et predict pour réaliser la prédiction de manière automatique**
+- *receive_file.py* : **Partie permettant de recevoir les fichiers du bucket**
+- *json2mongoDB.py* : **Partie s'executant sur la vm permettan de stoquer les resultats obtenus sur la DB mongo, utilise encryption et predict pour réaliser la prédiction de manière automatique**
 
 
-- *DataAnalysis.ipynb* :
-- *DataAnalysis.md* :
+- *DataAnalysis.ipynb* : **Partie permettant tester les modèles, puis d'exporter le meilleur (best_model.hy)**
+- *DataAnalysis.md* : **fichier permettant de visualiser le fichier précedent**
