@@ -16,3 +16,6 @@
 
 
 - *DataAnalysis.ipynb* : **Partie permettant tester les modèles, puis d'exporter le meilleur (best_model.h5)**
+
+## Fonctionnement
+cf présentation
