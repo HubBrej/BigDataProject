@@ -1,8 +1,9 @@
 # BigDataProject
 
 ## Listes des fichiers
-- *encriptionFile* : **fonction de chiffrement et déchiffrement via KMS d'AWS**
-- *predict.py* : **fonction permettant d'appliquer le modèlegal**
+
+- *encriptionFile* : **Fonctions de chiffrement et déchiffrement via KMS d'AWS**
+- *predict.py* : **Fonctions permettant d'appliquer le modèlegal**
 
 
 
@@ -14,4 +15,4 @@
 
 
 - *DataAnalysis.ipynb* : **Partie permettant tester les modèles, puis d'exporter le meilleur (best_model.hy)**
-- *DataAnalysis.md* : **fichier permettant de visualiser le fichier précedent**
+- *DataAnalysis.md* : **Partie permettant de visualiser le fichier précedent**
