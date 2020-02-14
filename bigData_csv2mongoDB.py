@@ -59,3 +59,27 @@ print("- Religion  ", collectionInd.find({"InsuredInfo_9": 1}).explain()['execut
 #db.profil_consumer.find({"Response": 1}).explain("executionStats")
 
 #db.profil_consumer.aggregate([{ $group : { _id:"$Response" , num: {$sum : 1}} }])
+
+def count_by_response():
+    return db.profil_consumer.aggregate([{ $group : { _id:"$Response" , num: {$sum : 1}} }])
+
+def count_by_sexe():
+    return db.profil_consumer.aggregate([{ $group : { _id:"$InsuredInfo_7" , num: {$sum : 1}} }])
+
+def count_by_race():
+    return db.profil_consumer.aggregate([{ $group : { _id:"$InsuredInfo_8" , num: {$sum : 1}} }])
+
+def count_by_religion():
+    return db.profil_consumer.aggregate([{ $group : { _id:"$InsuredInfo_9" , num: {$sum : 1}} }])
+
+def find_by_response():
+    return collection.find({"Response": 1})
+
+def find_by_sexe():
+    return collection.find({"InsuredInfo_7": 1})
+
+def find_by_race():
+    return collection.find({"InsuredInfo_8": 1})
+
+def find_by_religion():
+    return collection.find({"InsuredInfo_9": 1})
